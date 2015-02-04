@@ -266,14 +266,22 @@ int main () {
 			}			
 		}
 	
-		for(int i = 0; i < m; i++) {
+		/*for(int i = 0; i < m; i++) {
 			for (int j = 0; j < n; j++) {
 				cout<<grid[i*n+j]->V<<"\t\t";
 			}
 			cout<<endl<<endl;
 		}
-		cout<<k+1<<": "<<endl;
+		cout<<k+1<<": "<<endl;*/
 	}
+	cout<<"Terminal: "<<endl;
+	for(int i = 0; i < m; i++) {
+		for (int j = 0; j < n; j++) {
+			cout<<grid[i*n+j]->V<<"\t\t";
+		}
+		cout<<endl<<endl;
+	}
+	cout<<k+1<<": "<<endl;
 
 	
 	//cout<<grid[(g1+1)*n+g2-1]->East<<endl;
